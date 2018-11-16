@@ -34,6 +34,8 @@ a:hover {
 
 figcaption {
   color: #222;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 img {
@@ -50,6 +52,29 @@ p {
 ol dl ul {
   color: #222;
   list-style-type: none;
+}
+
+section ol {
+  list-style-type: lower-latin;
+}
+
+.data {
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+.chris {
+  font-size: .8rem;
+  text-indent: 2em;
+  font-style: italic;
+}
+
+aside {
+  list-style-type: circle;
+  font-size: .8rem;
 }
 
 footer {
